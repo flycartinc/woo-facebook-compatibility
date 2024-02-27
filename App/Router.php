@@ -12,11 +12,12 @@ class Router
      */
     private static $main;
 
+    /**
+     * @return void
+     */
     function init()
     {
         self::$main = empty(self::$main) ? new Main() : self::$main;
-
         add_filter('wc_facebook_product_price', [self::$main, 'getConvertedPrice'], 10, 3);
-
     }
 }
