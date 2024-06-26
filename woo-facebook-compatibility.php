@@ -1,6 +1,6 @@
 <?php
 /**
- * Plugin Name:         Woo facebook price compatibility
+ * Plugin Name:         Discount rules: Facebook compatibility
  * Plugin URI:          https://www.flycart.org
  * Description:         This add-on used for woocommerce facebook product prices by facebook in woo discount rules.
  * Version:             1.0.0
